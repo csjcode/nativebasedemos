@@ -10,7 +10,7 @@ class NewsList extends Component {
   }
 
   componentWillMount() {
-    fetch("http://www.json-generator.com/api/json/get/cgixxEilMy")
+    fetch("http://www.json-generator.com/api/json/get/bQnVABpbsi?indent=2")
       .then((response) => response.json())
       .then((responseData) => {
         console.log('success');
