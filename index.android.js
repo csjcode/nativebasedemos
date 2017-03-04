@@ -16,6 +16,7 @@ from 'native-base';
 import HeaderMain from './components/HeaderMain';
 import FooterMain from './components/FooterMain';
 import NewsList from './components/NewsList';
+import NewsListFetch from './components/NewsListFetch';
 
 import { Col, Row, Grid } from 'react-native-easy-grid';
 
@@ -26,7 +27,7 @@ export default class nativebasedemo extends Component {
 
         <HeaderMain/>
 
-        <NewsList/>
+        <NewsListFetch/>
 
         <FooterMain/>
 
